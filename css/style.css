@@ -1,0 +1,226 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Nunito:ital,wght@0,200;1,200&family=Poppins:wght@600&display=swap');
+
+body{
+    font-family: 'Cairo', sans-serif;
+}
+
+.header{
+    background-color: rgba(168, 106, 113, 0.822);
+
+    height: 40px;
+    line-height: 50px;
+    border-bottom: 3px solid rgba(34, 30, 26, 0.336);
+
+
+}
+.kt{
+    color: rgb(87, 83, 80);
+    font-size: 17px;
+}
+#bt {
+   float:right;
+   height: 40px;
+   line-height: 40px;
+   margin-top: 8px;
+   border-radius: 20Px;
+   font-style: italic;
+   font-weight: 5OOpx;
+}
+.kh{
+    line-height:30px;
+
+    border-radius: 20Px;
+}
+#ct{
+    color: rgb(95, 92, 88);
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(179, 197, 230, 0.308);
+    position: absolute;
+    z-index: 1;
+    border-bottom: 3px solid wheat;
+    border-top: 3px solid wheat;
+
+}
+
+
+.feutures {
+
+     background-color: rgba(168, 106, 113, 0.822);
+     border-bottom: 3px solid wheat;
+
+
+}
+
+.feutures i{
+width: 100px;
+height: 100px;
+line-height: 100px;
+font-size: 40px ;
+background-color: rgb(178, 192, 192);
+margin-top: 50px;
+border-bottom: 3px solid wheat;
+
+
+}
+
+.feutures h3 {
+    margin-top: 20Px;
+    margin-bottom: 20px;
+    color: rgb(100, 93, 84);
+}
+.feutures h1 {
+    font-size: 50px;
+    padding-top: 30px;
+}
+
+.ouer-team{
+ 
+padding: 20PX;
+background-image: url(../images/tp.jpg);
+border-bottom: 3px solid wheat;
+
+
+
+}
+
+.statistic{
+    background-image: url('../images/v2.png');
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.customers{
+  
+    background-color: rgba(168, 106, 113, 0.822);
+line-height: 300PX;
+ border-bottom: 3px solid wheat;
+
+}
+.recentnews{
+    background-image: url('/images/gg.jpg');
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+    
+.btn-danger{
+
+    background-color: rgba(168, 106, 113, 0.822);
+    border-color: rgba(168, 106, 113, 0.822);;
+}
+.recentnews{
+
+    border-bottom: 3px solid wheat;
+    padding-bottom: 80px;
+
+}
+    
+
+footer{
+    background-color: rgba(168, 106, 113, 0.822);
+
+    padding: 30px;
+    border-bottom: 3px solid wheat;
+    
+
+
+
+}
+footer a{
+color: aliceblue;
+}
+footer  p{
+    color: aliceblue;
+    }
+    footer  h2{
+        color: aliceblue;
+        }
+ 
+footer a:hover{
+    color: #000;
+    }
+    footer ul li {
+        list-style:none ;
+
+        }
+        .footer1{
+            color: aliceblue;
+            background-color: rgb(0, 0, 0);
+        }
+
+
+        .jumbotron{
+           padding: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+          
+        .jumbotron .blog_info{
+              
+            flex: 2;
+         
+         }
+
+         .jumbotron .blog_img{
+              
+            flex: 1;
+         
+         }
+         #navg{
+
+            height: 60PX;
+            background-color: rgba(168, 106, 113, 0.822);
+
+        }
+        .blogd p{
+            line-height: 2;
+            padding: 10px;
+        }
+
+
+
+
+
+
+
+        
+
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+
+.line-1{
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
